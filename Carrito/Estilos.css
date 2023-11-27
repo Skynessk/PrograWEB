@@ -1,0 +1,306 @@
+header{
+    width: auto;
+   background-color: rgb(230, 249, 108);
+   /* height:75px; */
+}
+
+h1{
+    position:relative;
+    display: inline-block;
+       color:blueviolet;
+       border:#333 solid 1px;
+       background-color: #e0840bab;
+   }
+
+#logo{
+    position: relative;
+    display: inline-block;
+}
+
+
+
+/*PARA UTILIZAR UN ID ES # Y SI ES UNA CLASE CON . */
+
+#logo img{
+    width: auto;
+    height: 75px;
+
+}
+
+
+   .btos_header{
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+    font-weight: bolder;
+    color:#333;
+    margin: .1rem;
+
+   }
+   #btn1{
+
+    background-color: none;
+    color: #333;
+}
+
+#avisos{
+    position: absolute;
+    display: none;
+    z-index: 9998;
+width: 100%;
+height: 100%;
+background-color: #0000009d;
+justify-content: center;
+align-items: center;
+
+}
+
+#closeBto{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white
+}
+
+#searchDIV{
+    display: none;
+    position: absolute;
+    z-index: 9999;
+
+}
+
+
+
+/********* Login Form *******/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  /* Close button on hover */
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    -moz-animation: animatezoom 0.6;
+    -o-animation: animatezoom 0.6;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    0% {-webkit-transform: scale(0)}
+    100% {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }
+
+
+/***SLIDER**/
+    .carousel-caption{  
+        background-color: transparent;
+        color:black;
+        bottom: 0;
+        top: 1rem;
+        height: 20%;
+   }
+
+
+/*Add Zoom Animation*/
+
+
+
+
+/***MAIN**/
+
+   main{
+    background: gray url("img/especiales/especial6.jpg") no-repeat;    
+    background-size: cover;
+    background-attachment: fixed ;
+   }
+    
+   /***Categorias***/
+   /* Estilos para los encabezados "CATEGORIAS" y "Los más vendidos" */
+
+.h3_cat {
+    padding: 0.5rem 1rem; /* Agrega relleno horizontal y vertical */
+    background-color: #faffbfab;
+    border: 2px solid #333; /* Agrega un borde */
+    font-size: 1.5rem; /* Ajusta el tamaño de fuente según tus preferencias */
+    font-weight: bold; /* Puedes ajustar el peso de la fuente */
+    text-align: center; /* Centra el texto horizontalmente */
+    margin: 1rem 0; /* Agrega margen superior e inferior */
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 10); /* Agrega un sombreado */
+  }
+
+   .card {
+    width: 20%;
+   }
+
+/**** PRODUCTOS ESTRELLAS ****/
+
+.imgFrame {
+    width: 200px;
+    height: 200px;
+    border: white solid 5px;
+    border-radius: 50%; /* Cambiado a 50% para que sea un círculo */
+    padding: 1rem;
+  }
+
+.ImgStarProd {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%; /* Cambiado a 50% para que sea un círculo */
+  border: white solid 2px;
+  background-size: cover;
+
+
+}
+
+#imgSP1{
+    background: white url("img/especiales/especial1.png") no-repeat center center;
+    background-size: cover;
+}
+
+#imgSP2{
+    background: white url("img/especiales/eespecial2.png") no-repeat center center;
+    background-size: cover;
+}
+
+#imgSP3{
+    background: white url("img/especiales/especial3.png") no-repeat center center;
+    background-size: cover;
+}
+
+#imgSP4{
+    background: white url("img/especiales/especial7.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.prodDetails h2{
+    color: white;
+    text-shadow: -1.5px -1.5px 0 #000000, /* Sombra superior-izquierda */
+    1.5px -1.5px 0 #000,  /* Sombra superior-derecha */
+    -1.5px 1.5px 0 #000,  /* Sombra inferior-izquierda */
+    1.5px 1.5px 0 #000;   /* Sombra inferior-derecha */;
+    padding: 1rem  0rem;
+}
+
+.prodDetails p{
+font-size: 1.2rem;
+font-weight: bold;
+}
+
+.prodDetails button{
+    font-size: 1.2rem;
+}
+
+
+   /***FOOTER**/
+footer{
+        height: 175px;
+        background-color: rgb(250, 253, 56);
+    }
+    
+/***** ResponsiveDesign *****/
+
+@media screen and (max-width: 767px) {
+    .starProd {
+      flex-direction: row; /* Alineación horizontal */
+      justify-content: space-between; /* Distribución uniforme */
+      align-items: center; /* Centra verticalmente */
+    }
+  }
+
+@media screen and (min-width:768px) and (max-width:1023px){
+.categorias{
+    flex-wrap: nowrap;
+    flex-flow: column;
+}
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px){
+    .btos_header{
+        margin: .1rem;
+    }
+    #categorias{
+        flex-flow: row wrap;
+    }
+    .card {
+        width: 43%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    header h2{
+        display: none;
+    }
+    #logo img{
+        height: 50px;
+
+    }
+    .btos_header{
+        margin: 0;
+    }
+    #categorias{
+        flex-flow: row wrap;
+    }
+    .card{
+        width: 100%;
+    }
+    .card a{
+        display: none;
+    }
+}
+
+/*Efectos Botones del Header*/
+
+.btos_header {
+    background-color: transparent; /* Color de fondo transparente por defecto */
+    box-shadow: 0px 0px 20px rgba(255, 0, 0, 0); /* Sombra transparente por defecto */
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transiciones suaves */
+    border-radius: 80%;
+  }
+  
+  .btos_header:hover {
+    background-color: rgba(255, 0, 0, 0.2); /* Cambia el color de fondo al pasar el ratón por encima */
+    box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.5); /* Agrega una sombra al pasar el ratón por encima */
+  }
+
+  
